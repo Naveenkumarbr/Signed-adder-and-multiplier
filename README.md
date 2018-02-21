@@ -1,3 +1,4 @@
 # Signed-adder-and-multiplier
+The multiplier and divider plays an important role in CPU unit. The Signed Binary multiplier and divider circuit calculates multiplication or division for 32 bit operands. 64-bit dividend is used while calculating quotient and reminder. The multiplication and division is operated using different states. There are 4 modules which are involved for design, three are designed for 32-bit addition. The control unit is responsible for performing operation related to shifting and providing input to adder circuit. The test inputs are provided using testbench. A combination of different positive and negative values are given as input through testbench. This design is analyzed for power, area and delay. It is simulated, designed and synthesized on Synopsys Design compiler. The tool works on 250nm technology and post synthesis which is observed using NCVerilog provided by Cadence. 
 
-Verilog code for Signed Addition and Multiplication for 64 bit which also contains testbench for verification of few scenarios.
+
